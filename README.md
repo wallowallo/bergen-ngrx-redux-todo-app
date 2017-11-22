@@ -27,7 +27,7 @@ cd your-app-name
 ng serve
 ```
 
-* [Angular-cli docs] (https://github.com/angular/angular-cli/wiki) - if you want to dive deeper.
+* [Angular-cli docs](https://github.com/angular/angular-cli/wiki) - if you want to dive deeper.
 
 ## Ngrx
 
@@ -45,7 +45,7 @@ or
 yarn add @ngrx/store
 ```
 
-* [Ngrx] (https://github.com/ngrx/platform/blob/master/docs/store/README.md) - Setup store docs.
+* [Ngrx](https://github.com/ngrx/platform/blob/master/docs/store/README.md) - Setup store docs.
 
 ### Ngrx-store-devtools
 
@@ -60,11 +60,11 @@ yarn add @ngrx/store-devtools
 
 Then install the extension to chrome or firefox.
 
-* [Devtools extensions] (http://extension.remotedev.io/) - Installation.
+* [Devtools extensions](http://extension.remotedev.io/) - Installation.
 
 Then we can use the docs to set it up.
 
-* [Devtools] (https://github.com/ngrx/platform/blob/master/docs/store-devtools/README.md) - Installation and setup.
+* [Devtools](https://github.com/ngrx/platform/blob/master/docs/store-devtools/README.md) - Installation and setup.
 
 ## Structuring your app
 
