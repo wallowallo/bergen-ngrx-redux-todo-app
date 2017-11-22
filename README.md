@@ -2,7 +2,15 @@
 
 Welcome to Bergen ngrx/redux first session! The goal of this group is to create a good environment to learn ngrx/redux and related technologies.
 
-In this first session we will take a look at how to setup the project with the angular cli, install our ngrx dependencies and do as far as we can get towards a todo-app.
+In this first session we will take a look at how to setup the project with the angular cli, install our ngrx dependencies and get as far as we can towards a todo-app.
+
+Future sessions may involve:
+* Nrwl/nx to get a better workspace for our ngrx app. 
+* Ngrx/effects to use crud operations. 
+* Ngrx/router-store to do actions on routing. 
+* Ngrx/entity to reduce boilerplate and to manipulate and query entity collections.
+* Building more complex apps
+* Refactoring from a standard app
 
 ## Angular-cli
 
@@ -12,14 +20,13 @@ You will need to install angular-cli if you havn't already:
 npm install -g @angular/cli
 ```
 
-After that is finished installing you simply run the command:
+After that is finished installing, simply run the command:
 
 ```
 ng new your-app-name
 ```
 
 This generates our app for us.
-
 And to serve it:
 
 ```
@@ -30,8 +37,6 @@ ng serve
 * [Angular-cli docs](https://github.com/angular/angular-cli/wiki) - if you want to dive deeper.
 
 ## Ngrx
-
-We will go over ngrx/effects and ngrx/router-store in different sessions.
 
 ### Ngrx-store
 
@@ -53,7 +58,7 @@ To install ngrx/store-devtools run:
 ```
 npm install @ngrx/store-devtools --save
 ``` 
-OR 
+or
 ```
 yarn add @ngrx/store-devtools
 ```
