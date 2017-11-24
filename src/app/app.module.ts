@@ -5,13 +5,19 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 // components
 import { TodoComponent } from './containers/todo/todo.component';
+import { TodoInputComponent } from './components/todo-input/todo-input.component';
 
 // reducers
 import { todosReducer } from './reducers/todos';
+import { TodoListComponent } from './components/todo-list/todo-list.component';
 
 
 @NgModule({
-  declarations: [TodoComponent],
+  declarations: [
+    TodoComponent,
+    TodoInputComponent,
+    TodoListComponent
+  ],
   imports: [
     BrowserModule,
     StoreModule.forRoot({ todos: todosReducer }),

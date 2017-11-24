@@ -1,3 +1,7 @@
 <p>
-  todo works!
+  todo-input works!
 </p>
+
+<app-todo-input (addTodo)="addingTodo($event)"></app-todo-input>
+
+<app-todo-list [todos]="(todos$ | async).todos" (onDeleteTodo)="deleteTodo($event)"></app-todo-list>
